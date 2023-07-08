@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="box">
+
+    <body>
+        <h1 id="title">Survey form project</h1>
+        <h2 id="text">Thank you for taking the time to complete this suvery</h2>
+        <p id="description">If you LOVE Pizza then tell me about it by completing this short survey.</p>
+        <main action="" id="survey-form">
+            Name<label for="name" id="name-label"> <input id="name" type="text" placeholder="Provide your name" required></label> Email
+            <label for="email" id="email-label"> <input type="email" name="email" id="email" placeholder="Input your email" required></label>
+            <fieldset>
+                <legend>What is your age?</legend>
+                <label for="number" id="number-label"> <input type="number" name="number" id="number" min="10" max="100" placeholder="Pick a number">Number</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Do you like Pizza?</legend>
+                <input type="radio" name="pizza" id="yes" value="yes" checked>
+                <label for="yes">Yes</label>
+                <input type="radio" name="pizza" id="no" value="no">
+                <label for="no">No</label>
+            </fieldset>
+            <fieldset>
+                <legend>Select an option?</legend>
+                <select name="select" id="dropdown">
+                <option value="deep dish">Deep dish</option>
+                <option value="thin crust">Thin crust</option>
+                <option value="veggie pizza">veggie</option>
+                <option value="meat pizza">meat</option>
+                <option value="chicago-style">chicago-style</option>
+                <option value="handtossed">handtossed</option>
+                <option value="mantle">mantle</option>
+                <option value="inner core">inner core</option>
+
+
+
+
+                <option value="other">Other</option>
+        </select>
+            </fieldset>
+            <fieldset>
+                <legend>Your favorite Pizza type if you selected yes</legend>
+                <input type="checkbox" name="type-of-pizza" id="cheese" value="cheese">
+                <label for="cheese">Cheese</label>
+                <input type="checkbox" name="type-of-pizza" id="pepperoni" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+                <input type="checkbox" name="type-of-pizza" id="sausage" value="sausage">
+                <label for="sausage">Sausage</label>
+                <input type="checkbox" name="type-of-pizza" id="pepperoni and sausage" value="pepperoni and sausage">
+                <label for="pepperoni and sausage">Pepperoni and sausage</label>
+                <input type="checkbox" name="type-of-pizza" id="supreme" value="supreme">
+                <label for="supreme">Supreme</label>
+                <input type="checkbox" name="type-of-pizza" id="other" value="other">
+                <label for="other">Other</label>
+            </fieldset>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Tell us how you prefer your Pizza!"></textarea>
+            <button type="submit" id="submit">Submit</button>
+    </body>
+</div>
+
+</html>

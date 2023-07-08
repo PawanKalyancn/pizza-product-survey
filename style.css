@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://pizzaschool.com/wp-content/uploads/2016/10/Pizza-Website-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: #fff;
+    text-align: center;
+    color: rgb(11, 0, 0);
+    font-size: 26px;
+    font-style: oblique;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+element.style {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 800px;
+    height: 800px;
+    padding-top: ‒20;
+    padding-top: 20px;
+    padding-left: 100px;
+    margin: 5px 300px 50px 300px;
+    display: flex;
+    background: transparent;
+    margin: 5px 300px 50px 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+p {
+    font-style: italic;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 3px 3px rgba(0, 1, 2, 0.185);
+}
+
+form {
+    width: 90vw;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 2px solid #000;
+    margin: 0 0 1em 0;
+    padding: 10px;
+    width: 20%;
+}
+
+input[type="submit"] {
+    border: 3px solid #f5f9fc;
+    background-color: #09a5fa;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #09a5fa;
+}
